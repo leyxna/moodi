@@ -13,6 +13,8 @@
 		BF9333292A685F1D00468CC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF9333282A685F1D00468CC9 /* Assets.xcassets */; };
 		BF93332C2A685F1D00468CC9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF93332B2A685F1D00468CC9 /* Preview Assets.xcassets */; };
 		BF9333342A68624100468CC9 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9333332A68624100468CC9 /* SplashScreenView.swift */; };
+		BFFEB6752A69A01300FBDBE9 /* userInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFEB6742A69A01300FBDBE9 /* userInput.swift */; };
+		BFFEB6772A69B46700FBDBE9 /* resourcesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFEB6762A69B46700FBDBE9 /* resourcesPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +25,8 @@
 		BF9333282A685F1D00468CC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BF93332B2A685F1D00468CC9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BF9333332A68624100468CC9 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
+		BFFEB6742A69A01300FBDBE9 /* userInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userInput.swift; sourceTree = "<group>"; };
+		BFFEB6762A69B46700FBDBE9 /* resourcesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resourcesPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +60,11 @@
 			isa = PBXGroup;
 			children = (
 				BF9333242A685F1A00468CC9 /* moodiApp.swift */,
+				BF9333332A68624100468CC9 /* SplashScreenView.swift */,
+				BFFEB6742A69A01300FBDBE9 /* userInput.swift */,
 				BF9333262A685F1A00468CC9 /* ContentView.swift */,
 				BF8E50362A68CCA200636723 /* journalResources.swift */,
-				BF9333332A68624100468CC9 /* SplashScreenView.swift */,
+				BFFEB6762A69B46700FBDBE9 /* resourcesPage.swift */,
 				BF9333282A685F1D00468CC9 /* Assets.xcassets */,
 				BF93332A2A685F1D00468CC9 /* Preview Content */,
 			);
@@ -143,6 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFFEB6772A69B46700FBDBE9 /* resourcesPage.swift in Sources */,
+				BFFEB6752A69A01300FBDBE9 /* userInput.swift in Sources */,
 				BF9333272A685F1A00468CC9 /* ContentView.swift in Sources */,
 				BF9333252A685F1A00468CC9 /* moodiApp.swift in Sources */,
 				BF9333342A68624100468CC9 /* SplashScreenView.swift in Sources */,

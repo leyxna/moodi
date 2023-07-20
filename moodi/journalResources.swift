@@ -8,15 +8,19 @@
 import SwiftUI
 
 struct journalResources: View {
+    
+    @Binding var emotion : String
+    
     var body: some View {
+        NavigationStack {
         ZStack {
             Color("brown")
                 .ignoresSafeArea()
             VStack {
-                Text("I'm feeling (emotion).")
-                    .font(.title2)
-                    .fontWeight(.bold)
-                    .foregroundColor(Color.white)
+                Text("I'm feeling \(emotion).")
+                                    .font(.title2)
+                                    .fontWeight(.bold)
+                                    .foregroundColor(Color.white)
                 
                 Button(action: {
                    
@@ -33,10 +37,7 @@ struct journalResources: View {
                     
                 }
                 
-                Button(action: {
-                   
-                }) {
-                    
+                NavigationLink(destination: resourcesPage(emotion: $emotion)) {
                     Text("resources 🌱")
                         .fontWeight(.bold)
                         .foregroundColor(Color.white)
@@ -44,8 +45,9 @@ struct journalResources: View {
                         .padding(.vertical, 30)
                         .background(Color("darkBrown"))
                         .cornerRadius(50)
-                        
-                        
+                    
+                    
+                    }
                 }
             }
         }
@@ -54,6 +56,6 @@ struct journalResources: View {
 
 struct journalResources_Previews: PreviewProvider {
     static var previews: some View {
-        journalResources()
+        journalResources(emotion: .constant("user"))
     }
 }

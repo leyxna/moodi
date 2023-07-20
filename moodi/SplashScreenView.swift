@@ -14,7 +14,7 @@ struct SplashScreenView: View {
     
     var body: some View {
         if isActive {
-            ContentView()
+            userInput(name: "", age: "")
         } else {
             ZStack {
             Color("moodiPurple")
