@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF8E50372A68CCA200636723 /* journalResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8E50362A68CCA200636723 /* journalResources.swift */; };
 		BF9333252A685F1A00468CC9 /* moodiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9333242A685F1A00468CC9 /* moodiApp.swift */; };
 		BF9333272A685F1A00468CC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9333262A685F1A00468CC9 /* ContentView.swift */; };
 		BF9333292A685F1D00468CC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF9333282A685F1D00468CC9 /* Assets.xcassets */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF8E50362A68CCA200636723 /* journalResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journalResources.swift; sourceTree = "<group>"; };
 		BF9333212A685F1A00468CC9 /* moodi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moodi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF9333242A685F1A00468CC9 /* moodiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moodiApp.swift; sourceTree = "<group>"; };
 		BF9333262A685F1A00468CC9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 			children = (
 				BF9333242A685F1A00468CC9 /* moodiApp.swift */,
 				BF9333262A685F1A00468CC9 /* ContentView.swift */,
+				BF8E50362A68CCA200636723 /* journalResources.swift */,
 				BF9333332A68624100468CC9 /* SplashScreenView.swift */,
 				BF9333282A685F1D00468CC9 /* Assets.xcassets */,
 				BF93332A2A685F1D00468CC9 /* Preview Content */,
@@ -143,6 +146,7 @@
 				BF9333272A685F1A00468CC9 /* ContentView.swift in Sources */,
 				BF9333252A685F1A00468CC9 /* moodiApp.swift in Sources */,
 				BF9333342A68624100468CC9 /* SplashScreenView.swift in Sources */,
+				BF8E50372A68CCA200636723 /* journalResources.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
