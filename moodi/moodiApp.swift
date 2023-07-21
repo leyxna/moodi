@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct moodiApp: App {
+    let persistenceController = PersistenceController.shared
     var body: some Scene {
         WindowGroup {
-            SplashScreenView()
+            SplashScreenView().environment(\.managedObjectContext, persistenceController.container.viewContext)
         }
     }
 }

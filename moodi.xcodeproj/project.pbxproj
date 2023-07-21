@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BF6C9EAF2A69FA62002AF957 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF6C9EAE2A69FA62002AF957 /* Persistence.swift */; };
+		BF6C9EB22A69FBF9002AF957 /* moodiApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF6C9EB02A69FBF9002AF957 /* moodiApp.xcdatamodeld */; };
 		BF8E50372A68CCA200636723 /* journalResources.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF8E50362A68CCA200636723 /* journalResources.swift */; };
 		BF9333252A685F1A00468CC9 /* moodiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9333242A685F1A00468CC9 /* moodiApp.swift */; };
 		BF9333272A685F1A00468CC9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9333262A685F1A00468CC9 /* ContentView.swift */; };
@@ -15,9 +17,13 @@
 		BF9333342A68624100468CC9 /* SplashScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF9333332A68624100468CC9 /* SplashScreenView.swift */; };
 		BFFEB6752A69A01300FBDBE9 /* userInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFEB6742A69A01300FBDBE9 /* userInput.swift */; };
 		BFFEB6772A69B46700FBDBE9 /* resourcesPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFEB6762A69B46700FBDBE9 /* resourcesPage.swift */; };
+		BFFEB6B92A69DF6F00FBDBE9 /* YesevaOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BFFEB6B82A69DF6F00FBDBE9 /* YesevaOne-Regular.ttf */; };
+		BFFEB6BB2A69E29B00FBDBE9 /* journalPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFFEB6BA2A69E29B00FBDBE9 /* journalPage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BF6C9EAE2A69FA62002AF957 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		BF6C9EB12A69FBF9002AF957 /* moodiApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = moodiApp.xcdatamodel; sourceTree = "<group>"; };
 		BF8E50362A68CCA200636723 /* journalResources.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journalResources.swift; sourceTree = "<group>"; };
 		BF9333212A685F1A00468CC9 /* moodi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = moodi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF9333242A685F1A00468CC9 /* moodiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = moodiApp.swift; sourceTree = "<group>"; };
@@ -27,6 +33,9 @@
 		BF9333332A68624100468CC9 /* SplashScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SplashScreenView.swift; sourceTree = "<group>"; };
 		BFFEB6742A69A01300FBDBE9 /* userInput.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userInput.swift; sourceTree = "<group>"; };
 		BFFEB6762A69B46700FBDBE9 /* resourcesPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = resourcesPage.swift; sourceTree = "<group>"; };
+		BFFEB6B72A69DE2100FBDBE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		BFFEB6B82A69DF6F00FBDBE9 /* YesevaOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "YesevaOne-Regular.ttf"; sourceTree = "<group>"; };
+		BFFEB6BA2A69E29B00FBDBE9 /* journalPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = journalPage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +52,7 @@
 		BF9333182A685F1A00468CC9 = {
 			isa = PBXGroup;
 			children = (
+				BFFEB6B82A69DF6F00FBDBE9 /* YesevaOne-Regular.ttf */,
 				BF9333232A685F1A00468CC9 /* moodi */,
 				BF9333222A685F1A00468CC9 /* Products */,
 			);
@@ -59,14 +69,18 @@
 		BF9333232A685F1A00468CC9 /* moodi */ = {
 			isa = PBXGroup;
 			children = (
+				BFFEB6B72A69DE2100FBDBE9 /* Info.plist */,
 				BF9333242A685F1A00468CC9 /* moodiApp.swift */,
 				BF9333332A68624100468CC9 /* SplashScreenView.swift */,
 				BFFEB6742A69A01300FBDBE9 /* userInput.swift */,
 				BF9333262A685F1A00468CC9 /* ContentView.swift */,
 				BF8E50362A68CCA200636723 /* journalResources.swift */,
+				BFFEB6BA2A69E29B00FBDBE9 /* journalPage.swift */,
 				BFFEB6762A69B46700FBDBE9 /* resourcesPage.swift */,
+				BF6C9EAE2A69FA62002AF957 /* Persistence.swift */,
 				BF9333282A685F1D00468CC9 /* Assets.xcassets */,
 				BF93332A2A685F1D00468CC9 /* Preview Content */,
+				BF6C9EB02A69FBF9002AF957 /* moodiApp.xcdatamodeld */,
 			);
 			path = moodi;
 			sourceTree = "<group>";
@@ -139,6 +153,7 @@
 			files = (
 				BF93332C2A685F1D00468CC9 /* Preview Assets.xcassets in Resources */,
 				BF9333292A685F1D00468CC9 /* Assets.xcassets in Resources */,
+				BFFEB6B92A69DF6F00FBDBE9 /* YesevaOne-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,11 +165,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFFEB6772A69B46700FBDBE9 /* resourcesPage.swift in Sources */,
+				BF6C9EAF2A69FA62002AF957 /* Persistence.swift in Sources */,
 				BFFEB6752A69A01300FBDBE9 /* userInput.swift in Sources */,
 				BF9333272A685F1A00468CC9 /* ContentView.swift in Sources */,
 				BF9333252A685F1A00468CC9 /* moodiApp.swift in Sources */,
+				BFFEB6BB2A69E29B00FBDBE9 /* journalPage.swift in Sources */,
 				BF9333342A68624100468CC9 /* SplashScreenView.swift in Sources */,
 				BF8E50372A68CCA200636723 /* journalResources.swift in Sources */,
+				BF6C9EB22A69FBF9002AF957 /* moodiApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +303,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"moodi/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = moodi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -313,6 +332,7 @@
 				DEVELOPMENT_ASSET_PATHS = "\"moodi/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = moodi/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -353,6 +373,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BF6C9EB02A69FBF9002AF957 /* moodiApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BF6C9EB12A69FBF9002AF957 /* moodiApp.xcdatamodel */,
+			);
+			currentVersion = BF6C9EB12A69FBF9002AF957 /* moodiApp.xcdatamodel */;
+			path = moodiApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BF9333192A685F1A00468CC9 /* Project object */;
 }

@@ -22,9 +22,7 @@ struct journalResources: View {
                                     .fontWeight(.bold)
                                     .foregroundColor(Color.white)
                 
-                Button(action: {
-                   
-                }) {
+                NavigationLink(destination: journalPage(emotion: $emotion, reflection: "")) {
                     
                     Text("journal 📝")
                         .fontWeight(.bold)

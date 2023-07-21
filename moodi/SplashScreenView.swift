@@ -23,8 +23,9 @@ struct SplashScreenView: View {
             VStack {
                 VStack {
                     Text("moodi")
-                        .font(.custom ("", size: 40))
+                        .font(.custom("YesevaOne-Regular", size: 49))
                         .foregroundColor(Color.white)
+                        .multilineTextAlignment(.center)
                     
                     Image("moodiCow")
                         .resizable(resizingMode: .stretch)
@@ -34,11 +35,12 @@ struct SplashScreenView: View {
                        // .offset(y: -40)
                         //.padding()
                     
-                    Text("Did you know that cows have best friends?")
+                    Text("Did you know that cows have besties? 👯‍♀️")
                         .font(.title2)
                         .fontWeight(.semibold)
                         .foregroundColor(Color.white)
                         .multilineTextAlignment(.center)
+                        .padding()
                        // .offset(y: -40)
                     
                     }
